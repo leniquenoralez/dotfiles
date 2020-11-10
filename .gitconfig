@@ -1,0 +1,22 @@
+[user]
+	email = Lenique.Noralez@lcecorp.com
+	name = Noralez, Lenique
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	mup = !git checkout master && git pull && git checkout -
+	amne = !git commit --amend --no-edit
+	rgi = !git rm -r --cached .
+	pfwl = !git push --force-with-lease
+	visual = !gitk
+	rename = branch -m
+[core]
+	excludesfile = /Users/noralezl/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

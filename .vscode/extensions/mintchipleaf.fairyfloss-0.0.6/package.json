@@ -1,0 +1,45 @@
+{
+	"name": "fairyfloss",
+	"displayName": "fairyfloss complete",
+	"description": "complete UI & editor theme for visual studio code based on the editor theme by sailorhg (http://sailorhg.github.io/fairyfloss)",
+	"version": "0.0.6",
+	"publisher": "mintchipleaf",
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"fairyfloss",
+		"vscode",
+		"pastel",
+		"cute",
+		"monochrome"
+	],
+	"homepage": "https://github.com/mintchipleaf/fairyfloss-vscode/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mintchipleaf/fairyfloss-vscode.git"
+	},
+	"icon": "assets/icon.png",
+	"galleryBanner": {
+		"color": "#5a5475",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "fairyfloss complete",
+				"uiTheme": "vs-dark",
+				"path": "./themes/fairyfloss-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "f602ecba-4baa-48a8-9eee-d2db6e1b27d5",
+		"publisherId": "e6cd1ffa-72d8-4890-9dd6-ee9a052b3d9e",
+		"publisherDisplayName": "mintchipleaf"
+	}
+}

@@ -1,0 +1,6 @@
+#VSCode Files
+/.vscode
+.vscodeignore
+
+#Compiled Files
+*.vsix

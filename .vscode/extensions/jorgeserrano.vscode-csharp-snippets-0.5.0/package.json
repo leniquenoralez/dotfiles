@@ -1,0 +1,47 @@
+{
+	"name": "vscode-csharp-snippets",
+	"publisher": "jorgeserrano",
+	"displayName": "C# Snippets",
+	"description": "C# Snippets for Visual Studio Code",
+	"icon": "images/vscode-csharp-snippets.png",
+	"version": "0.5.0",
+	"author": "Jorge Serrano",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/J0rgeSerran0/vscode-csharp-snippets.git"
+	},
+	"categories": [
+		"Languages",
+		"Snippets"
+	],
+	"keywords": [
+		".NET",
+		"C#",
+		"CSharp",
+		"Languages",
+		"Snippets"
+	],
+	"contributors": [
+		{
+			"name": "Jorge Serrano",
+			"url": "http://geeks.ms/Jorge/"
+		}
+	],
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"contributes": {
+		"snippets": [
+			{
+				"language": "csharp",
+				"path": "./snippets/csharp.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "957cd83d-dc33-4cd0-9550-62c93f227481",
+		"publisherId": "d3ef09b3-3300-4a86-bf86-490e3eb912ce",
+		"publisherDisplayName": "Jorge Serrano"
+	}
+}

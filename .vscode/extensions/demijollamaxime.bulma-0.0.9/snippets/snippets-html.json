@@ -1,0 +1,230 @@
+{
+	"bul-box": {
+		"prefix": "bul-box",
+		"body": "<div class=\"box\">\r\n  <article class=\"media\">\r\n    <div class=\"media-left\">\r\n      <figure class=\"image is-64x64\">\r\n        <img src=\"http://bulma.io/images/placeholders/128x128.png\" alt=\"Image\">\r\n      </figure>\r\n    </div>\r\n    <div class=\"media-content\">\r\n      <div class=\"content\">\r\n        <p>\r\n          <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>\r\n          <br>\r\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.\r\n        </p>\r\n      </div>\r\n      <nav class=\"level is-mobile\">\r\n        <div class=\"level-left\">\r\n          <a class=\"level-item\">\r\n            <span class=\"icon is-small\"><i class=\"fa fa-reply\"></i></span>\r\n          </a>\r\n          <a class=\"level-item\">\r\n            <span class=\"icon is-small\"><i class=\"fa fa-retweet\"></i></span>\r\n          </a>\r\n          <a class=\"level-item\">\r\n            <span class=\"icon is-small\"><i class=\"fa fa-heart\"></i></span>\r\n          </a>\r\n        </div>\r\n      </nav>\r\n    </div>\r\n  </article>\r\n</div>",
+		"description": "A white box to contain other elements",
+		"scope": "text.html,javascript"
+	},
+	"bul-buttons:disabled": {
+		"prefix": "bul-buttons:disabled",
+		"body": "\r\n<a class=\"button\" title=\"Disabled button\" disabled>Disabled</a>\r\n<a class=\"button is-primary\" title=\"Disabled button\" disabled>Disabled</a>\r\n<a class=\"button is-info\" title=\"Disabled button\" disabled>Disabled</a>\r\n<a class=\"button is-success\" title=\"Disabled button\" disabled>Disabled</a>\r\n<a class=\"button is-warning\" title=\"Disabled button\" disabled>Disabled</a>\r\n<a class=\"button is-danger\" title=\"Disabled button\" disabled>Disabled</a>",
+		"description": "The classic button, in different colors, sizes, and states - Disabled",
+		"scope": "text.html,javascript"
+	},
+	"bul-buttons:font-awesome-icons": {
+		"prefix": "bul-buttons:font-awesome-icons",
+		"body": "<p class=\"field\">\r\n  <a class=\"button\">\r\n    <span class=\"icon is-small\">\r\n      <i class=\"fa fa-bold\"></i>\r\n    </span>\r\n  </a>\r\n  <a class=\"button\">\r\n    <span class=\"icon is-small\">\r\n      <i class=\"fa fa-italic\"></i>\r\n    </span>\r\n  </a>\r\n  <a class=\"button\">\r\n    <span class=\"icon is-small\">\r\n      <i class=\"fa fa-underline\"></i>\r\n    </span>\r\n  </a>\r\n</p>\r\n<p class=\"field\">\r\n  <a class=\"button\">\r\n    <span class=\"icon\">\r\n      <i class=\"fa fa-github\"></i>\r\n    </span>\r\n    <span>GitHub</span>\r\n  </a>\r\n  <a class=\"button is-primary\">\r\n    <span class=\"icon\">\r\n      <i class=\"fa fa-twitter\"></i>\r\n    </span>\r\n    <span>Twitter</span>\r\n  </a>\r\n  <a class=\"button is-success\">\r\n\t",
+		"description": "The classic button, in different colors, sizes, and states- With Font Awesome icons",
+		"scope": "text.html,javascript"
+	},
+	"bul-buttons-group": {
+		"prefix": "bul-buttons-group",
+		"body": "<div class=\"field is-grouped\">\r\n  <p class=\"control\">\r\n    <a class=\"button is-primary\">\r\n      Save changes\r\n    </a>\r\n  </p>\r\n  <p class=\"control\">\r\n    <a class=\"button\">\r\n      Cancel\r\n    </a>\r\n  </p>\r\n  <p class=\"control\">\r\n    <a class=\"button is-danger\">\r\n      Delete post\r\n    </a>\r\n  </p>\r\n</div>",
+		"description": "If you want to group buttons together, use the is-grouped modifier on the field container",
+		"scope": "text.html,javascript"
+	},
+	"bul-buttons:inverted": {
+		"prefix": "bul-buttons:inverted",
+		"body": "<a class=\"button is-primary is-inverted\">Inverted</a>\r\n<a class=\"button is-info is-inverted\">Inverted</a>\r\n<a class=\"button is-success is-inverted\">Inverted</a>\r\n<a class=\"button is-danger is-inverted\">Inverted</a>",
+		"description": "Inverted (the text color becomes the background color, and vice-versa)",
+		"scope": "text.html,javascript"
+	},
+	"bul-buttons:loading": {
+		"prefix": "bul-buttons:loading",
+		"body": "<a class=\"button is-loading\">Loading</a>\r\n<a class=\"button is-primary is-loading\">Loading</a>\r\n<a class=\"button is-info is-loading\">Loading</a>\r\n<a class=\"button is-success is-loading\">Loading</a>\r\n<a class=\"button is-warning is-loading\">Loading</a>\r\n<a class=\"button is-danger is-loading\">Loading</a>",
+		"description": "Loading buttons",
+		"scope": "text.html,javascript"
+	},
+	"bul-buttons:sizes": {
+		"prefix": "bul-buttons:sizes",
+		"body": "<a class=\"button is-small\">Small</a>\r\n<a class=\"button\">Normal</a>\r\n<a class=\"button is-medium\">Medium</a>\r\n<a class=\"button is-large\">Large</a>",
+		"description": "Buttons sizes",
+		"scope": "text.html,javascript"
+	},
+	"bul-buttons:styles": {
+		"prefix": "bul-buttons:styles",
+		"body": "<a class=\"button is-outlined\">Outlined</a>\r\n<a class=\"button is-primary is-outlined\">Outlined</a>\r\n<a class=\"button is-info is-outlined\">Outlined</a>\r\n<a class=\"button is-success is-outlined\">Outlined</a>\r\n<a class=\"button is-danger is-outlined\">Outlined</a>",
+		"description": "Buttons sizes outlined",
+		"scope": "text.html,javascript"
+	},
+	"bul-buttons": {
+		"prefix": "bul-buttons",
+		"body": "<div class=\"block\">\r\n  <a class=\"button\">Button</a>\r\n  <a class=\"button is-white\">White</a>\r\n  <a class=\"button is-light\">Light</a>\r\n  <a class=\"button is-dark\">Dark</a>\r\n  <a class=\"button is-black\">Black</a>\r\n  <a class=\"button is-link\">Link</a>\r\n</div>\r\n<div class=\"block\">\r\n  <a class=\"button is-primary\">Primary</a>\r\n  <a class=\"button is-info\">Info</a>\r\n  <a class=\"button is-success\">Success</a>\r\n  <a class=\"button is-warning\">Warning</a>\r\n  <a class=\"button is-danger\">Danger</a>\r\n</div>",
+		"description": "The classic button, in different colors, sizes, and states",
+		"scope": "text.html,javascript"
+	},
+	"bul-card": {
+		"prefix": "bul-card",
+		"body": "<div class=\"card\">\r\n  <div class=\"card-image\">\r\n    <figure class=\"image is-4by3\">\r\n      <img src=\"http://bulma.io/images/placeholders/1280x960.png\" alt=\"Image\">\r\n    </figure>\r\n  </div>\r\n  <div class=\"card-content\">\r\n    <div class=\"media\">\r\n      <div class=\"media-left\">\r\n        <figure class=\"image is-48x48\">\r\n          <img src=\"http://bulma.io/images/placeholders/96x96.png\" alt=\"Image\">\r\n        </figure>\r\n      </div>\r\n      <div class=\"media-content\">\r\n        <p class=\"title is-4\">John Smith</p>\r\n        <p class=\"subtitle is-6\">@johnsmith</p>\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"content\">\r\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit.\r\n      Phasellus nec iaculis mauris. <a>@bulmaio</a>.\r\n      <a>#css</a> <a>#responsive</a>\r\n      <br>\r\n      <small>11:09 PM - 1 Jan 2016</small>\r\n    </div>\r\n  </div>\r\n</div>",
+		"description": "An all-around flexible and composable component",
+		"scope": "text.html,javascript"
+	},
+	"bul-cdn:css": {
+		"prefix": "bul-cdn:css",
+		"body": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css\"/>",
+		"description": "Cdnjs for the head element",
+		"scope": "text.html,javascript"
+	},
+	"bul-container:centered": {
+		"prefix": "bul-container:centered",
+		"body": "<div class=\"container\">\r\n  <div class=\"notification\">\r\n    This container is <strong>centered</strong> on desktop.\r\n  </div>\r\n</div>",
+		"description": "If you don't want to have a maximum width but want to keep the 20px margin on the left and right sides, add the is-fluid modifier",
+		"scope": "text.html,javascript"
+	},
+	"bul-container:fluid": {
+		"prefix": "bul-container:fluid",
+		"body": "<div class=\"container is-fluid\">\r\n  <div class=\"notification\">\r\n    This container is <strong>fluid</strong>: it will have a 20px gap on either side, on any viewport size.\r\n  </div>\r\n</div>",
+		"description": "If you don't want to have a maximum width but want to keep the 20px margin on the left and right sides, add the is-fluid modifier",
+		"scope": "text.html,javascript"
+	},
+	"bul-deletes": {
+		"prefix": "bul-deletes",
+		"body": "<a class=\"delete is-small\"></a>\r\n<a class=\"delete\"></a>\r\n<a class=\"delete is-medium\"></a>\r\n<a class=\"delete is-large\"></a>",
+		"description": "A versatile delete cross",
+		"scope": "text.html,javascript"
+	},
+	"bul-font-awesome:css": {
+		"prefix": "bul-font-awesome:css",
+		"body": "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\">",
+		"description": "Css to use font awsome icons",
+		"scope": "text.html,javascript"
+	},
+	"bul-footer": {
+		"prefix": "bul-footer",
+		"body": "<footer class=\"footer\">\r\n  <div class=\"container\">\r\n    <div class=\"content has-text-centered\">\r\n      <p>\r\n        <strong>Bulma</strong> by <a href=\"http://jgthms.com\">Jeremy Thomas</a>. The source code is licensed\r\n        <a href=\"http://opensource.org/licenses/mit-license.php\">MIT</a>. The website content\r\n        is licensed <a href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">CC ANS 4.0</a>.\r\n      </p>\r\n      <p>\r\n        <a class=\"icon\" href=\"https://github.com/jgthms/bulma\">\r\n          <i class=\"fa fa-github\"></i>\r\n        </a>\r\n      </p>\r\n    </div>\r\n  </div>\r\n</footer>",
+		"description": "A simple responsive footer which can include anything: lists, headings, columns, icons, buttons...",
+		"scope": "text.html,javascript"
+	},
+	"bul-form:addons-select": {
+		"prefix": "bul-form:addons-select",
+		"body": "<div class=\"field has-addons\">\r\n  <p class=\"control\">\r\n    <span class=\"select\">\r\n      <select>\r\n        <option>$</option>\r\n        <option>£</option>\r\n        <option>€</option>\r\n      </select>\r\n    </span>\r\n  </p>\r\n  <p class=\"control\">\r\n    <input class=\"input\" type=\"text\" placeholder=\"Amount of money\">\r\n  </p>\r\n  <p class=\"control\">\r\n    <a class=\"button\">\r\n      Transfer\r\n    </a>\r\n  </p>\r\n</div>\r\n<div class=\"field has-addons\">\r\n  <p class=\"control\">\r\n    <span class=\"select\">\r\n      <select>\r\n        <option>$</option>\r\n        <option>£</option>\r\n        <option>€</option>\r\n      </select>\r\n    </span>\r\n  </p>\r\n  <p class=\"control is-expanded\">\r\n    <input class=\"input\" type=\"text\" placeholder=\"Amount of money\">\r\n  </p>\r\n  <p class=\"control\">\r\n    <a class=\"button\">\r\n      Transfer\r\n    </a>\r\n  </p>\r\n</div>",
+		"description": "If you want a full width select dropdown, pair control is-expanded with select is-fullwidth",
+		"scope": "text.html,javascript"
+	},
+	"bul-form:addons": {
+		"prefix": "bul-form:addons",
+		"body": "<div class=\"field has-addons\">\r\n  <p class=\"control\">\r\n    <input class=\"input\" type=\"text\" placeholder=\"Find a repository\">\r\n  </p>\r\n  <p class=\"control\">\r\n    <a class=\"button is-info\">\r\n      Search\r\n    </a>\r\n  </p>\r\n</div>",
+		"description": "If you want to attach controls together, use the has-addons modifier on the control container",
+		"scope": "text.html,javascript"
+	},
+	"bul-form:controls": {
+		"prefix": "bul-form:controls",
+		"body": "<div class=\"field\">\r\n  <label class=\"label\">Name</label>\r\n  <p class=\"control\">\r\n    <input class=\"input\" type=\"text\" placeholder=\"Text input\">\r\n  </p>\r\n</div>\r\n\r\n<div class=\"field\">\r\n  <label class=\"label\">Username</label>\r\n  <p class=\"control has-icon has-icon-right\">\r\n    <input class=\"input is-success\" type=\"text\" placeholder=\"Text input\" value=\"bulma\">\r\n    <span class=\"icon is-small\">\r\n      <i class=\"fa fa-check\"></i>\r\n    </span>\r\n  </p>\r\n  <p class=\"help is-success\">This username is available</p>\r\n</div>\r\n\r\n<div class=\"field\">\r\n  <label class=\"label\">Email</label>\r\n  <p class=\"control has-icon has-icon-right\">\r\n    <input class=\"input is-danger\" type=\"text\" placeholder=\"Email input\" value=\"hello@\">\r\n    <span class=\"icon is-small\">\r\n      <i class=\"fa fa-warning\"></i>\r\n    </span>\r\n  </p>\r\n  <p class=\"help is-danger\">This email is invalid</p>\r\n</div>\r\n\r\n<div class=\"field\">\r\n  <label class=\"label\">Subject</label>\r\n  <p class=\"control\">\r\n    <span class=\"select\">\r\n      <select>\r\n        <option>Select dropdown</option>\r\n        <option>With options</option>\r\n      </select>\r\n    </span>\r\n  </p>\r\n</div>\r\n\r\n<div class=\"field\">\r\n  <label class=\"label\">Message</label>\r\n  <p class=\"control\">\r\n    <textarea class=\"textarea\" placeholder=\"Textarea\"></textarea>\r\n  </p>\r\n</div>\r\n\r\n<div class=\"field\">\r\n  <p class=\"control\">\r\n    <label class=\"checkbox\">\r\n      <input type=\"checkbox\">\r\n      Remember me\r\n    </label>\r\n  </p>\r\n</div>\r\n\r\n<div class=\"field\">\r\n  <p class=\"control\">\r\n    <label class=\"radio\">\r\n      <input type=\"radio\" name=\"question\">\r\n      Yes\r\n    </label>\r\n    <label class=\"radio\">\r\n      <input type=\"radio\" name=\"question\">\r\n      No\r\n    </label>\r\n  </p>\r\n</div>\r\n\r\n<div class=\"field is-grouped\">\r\n  <p class=\"control\">\r\n    <button class=\"button is-primary\">Submit</button>\r\n  </p>\r\n  <p class=\"control\">\r\n    <button class=\"button is-link\">Cancel</button>\r\n  </p>\r\n</div>",
+		"description": "All generic form controls, designed for consistency",
+		"scope": "text.html,javascript"
+	},
+	"bul-form:group": {
+		"prefix": "bul-form:group",
+		"body": "<div class=\"field is-grouped\">\r\n  <p class=\"control is-expanded\">\r\n    <input class=\"input\" type=\"text\" placeholder=\"Find a repository\">\r\n  </p>\r\n  <p class=\"control\">\r\n    <a class=\"button is-info\">\r\n      Search\r\n    </a>\r\n  </p>\r\n</div>",
+		"description": "If you want to group controls together, use the is-grouped modifier on the control container.",
+		"scope": "text.html,javascript"
+	},
+	"bul-grid:columns-gapless": {
+		"prefix": "bul-grid:columns-gapless",
+		"body": "<div class=\"columns is-gapless\">\r\n\t<div class=\"column\">First column</div>\r\n \t<div class=\"column\">Second column</div>\r\n \t<div class=\"column\">Third column</div>\r\n \t<div class=\"column\">Fourth column</div>\r\n</div>",
+		"description": "If you want to remove the space between the columns, add the is-gapless modifier on the columns container",
+		"scope": "text.html,javascript"
+	},
+	"bul-grid:columns": {
+		"prefix": "bul-grid:columns",
+		"body": "<div class=\"columns\">\r\n  <div class=\"column\">\r\n    First column\r\n  </div>\r\n  <div class=\"column\">\r\n    Second column\r\n  </div>\r\n  <div class=\"column\">\r\n    Third column\r\n  </div>\r\n  <div class=\"column\">\r\n    Fourth column\r\n  </div>\r\n</div>",
+		"description": "A simple way to build responsive columns",
+		"scope": "text.html,javascript"
+	},
+	"bul-hero": {
+		"prefix": "bul-hero",
+		"body": "<section class=\"hero\">\r\n  <div class=\"hero-body\">\r\n    <div class=\"container\">\r\n      <h1 class=\"title\">\r\n        Hero title\r\n      </h1>\r\n      <h2 class=\"subtitle\">\r\n        Hero subtitle\r\n      </h2>\r\n    </div>\r\n  </div>\r\n</section>",
+		"description": "An imposing hero banner to showcase something",
+		"scope": "text.html,javascript"
+	},
+	"bul:html": {
+		"prefix": "bul:html",
+		"body": "<!DOCTYPE html>\r\n<html lang=\"\">\r\n    <head>\r\n        <meta charset=\"utf-8\">\r\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n        <title>Title Page</title>\r\n        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css\"/>\r\n    </head>\r\n    <body>\r\n    </body>\r\n</html>",
+		"description": "A bulma html 5 page",
+		"scope": "text.html,javascript"
+	},
+	"bul-level:centered": {
+		"prefix": "bul-level:centered",
+		"body": "<nav class=\"level\">\r\n  <div class=\"level-item has-text-centered\">\r\n    <div>\r\n      <p class=\"heading\">Tweets</p>\r\n      <p class=\"title\">3,456</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"level-item has-text-centered\">\r\n    <div>\r\n      <p class=\"heading\">Following</p>\r\n      <p class=\"title\">123</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"level-item has-text-centered\">\r\n    <div>\r\n      <p class=\"heading\">Followers</p>\r\n      <p class=\"title\">456K</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"level-item has-text-centered\">\r\n    <div>\r\n      <p class=\"heading\">Likes</p>\r\n      <p class=\"title\">789</p>\r\n    </div>\r\n  </div>\r\n</nav>",
+		"description": "If you want a centered level, you can use as many level-item as you want, as long as they are direct children of the level container",
+		"scope": "text.html,javascript"
+	},
+	"bul-level:mobile": {
+		"prefix": "bul-level:mobile",
+		"body": "<nav class=\"level is-mobile\">\r\n  <div class=\"level-item has-text-centered\">\r\n    <div>\r\n      <p class=\"heading\">Tweets</p>\r\n      <p class=\"title\">3,456</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"level-item has-text-centered\">\r\n    <div>\r\n      <p class=\"heading\">Following</p>\r\n      <p class=\"title\">123</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"level-item has-text-centered\">\r\n    <div>\r\n      <p class=\"heading\">Followers</p>\r\n      <p class=\"title\">456K</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"level-item has-text-centered\">\r\n    <div>\r\n      <p class=\"heading\">Likes</p>\r\n      <p class=\"title\">789</p>\r\n    </div>\r\n  </div>\r\n</nav>",
+		"description": "By default, for space concerns, the level is vertical on mobile. If you want the level to be horizontal on mobile as well, add the is-mobile modifier on the level container.",
+		"scope": "text.html,javascript"
+	},
+	"bul-level": {
+		"prefix": "bul-level",
+		"body": "<!-- Main container -->\r\n<nav class=\"level\">\r\n  <!-- Left side -->\r\n  <div class=\"level-left\">\r\n    <div class=\"level-item\">\r\n      <p class=\"subtitle is-5\">\r\n        <strong>123</strong> posts\r\n      </p>\r\n    </div>\r\n    <div class=\"level-item\">\r\n      <div class=\"field has-addons\">\r\n        <p class=\"control\">\r\n          <input class=\"input\" type=\"text\" placeholder=\"Find a post\">\r\n        </p>\r\n        <p class=\"control\">\r\n          <button class=\"button\">\r\n            Search\r\n          </button>\r\n        </p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n\r\n  <!-- Right side -->\r\n  <div class=\"level-right\">\r\n    <p class=\"level-item\"><strong>All</strong></p>\r\n    <p class=\"level-item\"><a>Published</a></p>\r\n    <p class=\"level-item\"><a>Drafts</a></p>\r\n    <p class=\"level-item\"><a>Deleted</a></p>\r\n    <p class=\"level-item\"><a class=\"button is-success\">New</a></p>\r\n  </div>\r\n</nav>",
+		"description": "A multi-purpose horizontal level, which can contain almost any other element",
+		"scope": "text.html,javascript"
+	},
+	"bul-menu": {
+		"prefix": "bul-menu",
+		"body": "<aside class=\"menu\">\r\n  <p class=\"menu-label\">\r\n    General\r\n  </p>\r\n  <ul class=\"menu-list\">\r\n    <li><a>Dashboard</a></li>\r\n    <li><a>Customers</a></li>\r\n  </ul>\r\n  <p class=\"menu-label\">\r\n    Administration\r\n  </p>\r\n  <ul class=\"menu-list\">\r\n    <li><a>Team Settings</a></li>\r\n    <li>\r\n      <a class=\"is-active\">Manage Your Team</a>\r\n      <ul>\r\n        <li><a>Members</a></li>\r\n        <li><a>Plugins</a></li>\r\n        <li><a>Add a member</a></li>\r\n      </ul>\r\n    </li>\r\n    <li><a>Invitations</a></li>\r\n    <li><a>Cloud Storage Environment Settings</a></li>\r\n    <li><a>Authentication</a></li>\r\n  </ul>\r\n  <p class=\"menu-label\">\r\n    Transactions\r\n  </p>\r\n  <ul class=\"menu-list\">\r\n    <li><a>Payments</a></li>\r\n    <li><a>Transfers</a></li>\r\n    <li><a>Balance</a></li>\r\n  </ul>\r\n</aside>",
+		"description": "A simple menu, for any type of vertical navigation",
+		"scope": "text.html,javascript"
+	},
+	"bul-messages": {
+		"prefix": "bul-messages",
+		"body": "<article class=\"message\">\r\n  <div class=\"message-header\">\r\n    <p>Hello World</p>\r\n    <button class=\"delete\"></button>\r\n  </div>\r\n  <div class=\"message-body\">\r\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.\r\n  </div>\r\n</article>\r\n<article class=\"message is-dark\">\r\n  <div class=\"message-header\">\r\n    <p>Dark</p>\r\n    <button class=\"delete\"></button>\r\n  </div>\r\n  <div class=\"message-body\">\r\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.\r\n  </div>\r\n</article>\r\n<article class=\"message is-primary\">\r\n  <div class=\"message-header\">\r\n    <p>Primary</p>\r\n    <button class=\"delete\"></button>\r\n  </div>\r\n  <div class=\"message-body\">\r\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.\r\n  </div>\r\n</article>\r\n<article class=\"message is-info\">\r\n  <div class=\"message-header\">\r\n    <p>Info</p>\r\n    <button class=\"delete\"></button>\r\n  </div>\r\n  <div class=\"message-body\">\r\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.\r\n  </div>\r\n</article>\r\n<article class=\"message is-success\">\r\n  <div class=\"message-header\">\r\n    <p>Success</p>\r\n    <button class=\"delete\"></button>\r\n  </div>\r\n  <div class=\"message-body\">\r\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.\r\n  </div>\r\n</article>\r\n<article class=\"message is-warning\">\r\n  <div class=\"message-header\">\r\n    <p>Warning</p>\r\n    <button class=\"delete\"></button>\r\n  </div>\r\n  <div class=\"message-body\">\r\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.\r\n  </div>\r\n</article>\r\n<article class=\"message is-danger\">\r\n  <div class=\"message-header\">\r\n    <p><strong>Danger</strong>! <a>Learn more</a></p>\r\n    <button class=\"delete\"></button>\r\n  </div>\r\n  <div class=\"message-body\">\r\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.\r\n  </div>\r\n</article>",
+		"description": "Colored message blocks, to emphasize part of your page",
+		"scope": "text.html,javascript"
+	},
+	"bul-nav": {
+		"prefix": "bul-nav",
+		"body": "<nav class=\"nav\">\r\n  <div class=\"nav-left\">\r\n    <a class=\"nav-item\">\r\n      <img src=\"http://bulma.io/images/bulma-logo.png\" alt=\"Bulma logo\">\r\n    </a>\r\n  </div>\r\n\r\n  <div class=\"nav-center\">\r\n    <a class=\"nav-item\">\r\n      <span class=\"icon\">\r\n        <i class=\"fa fa-github\"></i>\r\n      </span>\r\n    </a>\r\n    <a class=\"nav-item\">\r\n      <span class=\"icon\">\r\n        <i class=\"fa fa-twitter\"></i>\r\n      </span>\r\n    </a>\r\n  </div>\r\n\r\n  <!-- This \"nav-toggle\" hamburger menu is only visible on mobile -->\r\n  <!-- You need JavaScript to toggle the \"is-active\" class on \"nav-menu\" -->\r\n  <span class=\"nav-toggle\">\r\n    <span></span>\r\n    <span></span>\r\n    <span></span>\r\n  </span>\r\n\r\n  <!-- This \"nav-menu\" is hidden on mobile -->\r\n  <!-- Add the modifier \"is-active\" to display it on mobile -->\r\n  <div class=\"nav-right nav-menu\">\r\n    <a class=\"nav-item\">\r\n      Home\r\n    </a>\r\n    <a class=\"nav-item\">\r\n      Documentation\r\n    </a>\r\n    <a class=\"nav-item\">\r\n      Blog\r\n    </a>\r\n\r\n    <span class=\"nav-item\">\r\n      <a class=\"button\" >\r\n        <span class=\"icon\">\r\n          <i class=\"fa fa-twitter\"></i>\r\n        </span>\r\n        <span>Tweet</span>\r\n      </a>\r\n      <a class=\"button is-primary\">\r\n        <span class=\"icon\">\r\n          <i class=\"fa fa-download\"></i>\r\n        </span>\r\n        <span>Download</span>\r\n      </a>\r\n    </span>\r\n  </div>\r\n</nav>",
+		"description": "A responsive horizontal nav bar that can contain links, tabs, buttons, icons, and a logo",
+		"scope": "text.html,javascript"
+	},
+	"bul-notifications": {
+		"prefix": "bul-notifications",
+		"body": "<div class=\"notification\">\r\n  <button class=\"delete\"></button>\r\n  Lorem ipsum dolor sit amet, consectetur\r\n  adipiscing elit lorem ipsum dolor sit amet,\r\n  consectetur adipiscing elit\r\n</div>\r\n\r\n<div class=\"notification is-primary\">\r\n  <button class=\"delete\"></button>\r\n  Primar lorem ipsum dolor sit amet, consectetur\r\n  adipiscing elit lorem ipsum dolor sit amet,\r\n  consectetur adipiscing elit\r\n</div>\r\n\r\n<div class=\"notification is-info\">\r\n  <button class=\"delete\"></button>\r\n  Info lorem ipsum dolor sit amet, consectetur\r\n  adipiscing elit lorem ipsum dolor sit amet,\r\n  consectetur adipiscing elit\r\n</div>\r\n\r\n<div class=\"notification is-success\">\r\n  <button class=\"delete\"></button>\r\n  Success lorem ipsum dolor sit amet, consectetur\r\n  adipiscing elit lorem ipsum dolor sit amet,\r\n  consectetur adipiscing elit\r\n</div>\r\n\r\n<div class=\"notification is-warning\">\r\n  <button class=\"delete\"></button>\r\n  Warning lorem ipsum dolor sit amet, consectetur\r\n  adipiscing elit lorem ipsum dolor sit amet,\r\n  consectetur adipiscing elit\r\n</div>\r\n\r\n<div class=\"notification is-danger\">\r\n  <button class=\"delete\"></button>\r\n  Danger lorem ipsum dolor sit amet, consectetur\r\n  adipiscing elit lorem ipsum dolor sit amet,\r\n  consectetur adipiscing elit\r\n</div>",
+		"description": "Bold notification blocks, to alert your users of something",
+		"scope": "text.html,javascript"
+	},
+	"bul-panel": {
+		"prefix": "bul-panel",
+		"body": "<nav class=\"panel\">\r\n  <p class=\"panel-heading\">\r\n    Repositories\r\n  </p>\r\n  <div class=\"panel-block\">\r\n    <p class=\"control has-icon\">\r\n      <input class=\"input is-small\" type=\"text\" placeholder=\"Search\">\r\n      <span class=\"icon is-small\">\r\n        <i class=\"fa fa-search\"></i>\r\n      </span>\r\n    </p>\r\n  </div>\r\n  <p class=\"panel-tabs\">\r\n    <a class=\"is-active\">All</a>\r\n    <a>Public</a>\r\n    <a>Private</a>\r\n    <a>Sources</a>\r\n    <a>Forks</a>\r\n  </p>\r\n  <a class=\"panel-block is-active\">\r\n    <span class=\"panel-icon\">\r\n      <i class=\"fa fa-book\"></i>\r\n    </span>\r\n    bulma\r\n  </a>\r\n  <a class=\"panel-block\">\r\n    <span class=\"panel-icon\">\r\n      <i class=\"fa fa-book\"></i>\r\n    </span>\r\n    marksheet\r\n  </a>\r\n  <a class=\"panel-block\">\r\n    <span class=\"panel-icon\">\r\n      <i class=\"fa fa-book\"></i>\r\n    </span>\r\n    minireset.css\r\n  </a>\r\n  <a class=\"panel-block\">\r\n    <span class=\"panel-icon\">\r\n      <i class=\"fa fa-book\"></i>\r\n    </span>\r\n    jgthms.github.io\r\n  </a>\r\n  <a class=\"panel-block\">\r\n    <span class=\"panel-icon\">\r\n      <i class=\"fa fa-code-fork\"></i>\r\n    </span>\r\n    daniellowtw/infBoard\r\n  </a>\r\n  <a class=\"panel-block\">\r\n    <span class=\"panel-icon\">\r\n      <i class=\"fa fa-code-fork\"></i>\r\n    </span>\r\n    mojs\r\n  </a>\r\n  <label class=\"panel-block\">\r\n    <input type=\"checkbox\">\r\n    Remember me\r\n  </label>\r\n  <div class=\"panel-block\">\r\n    <button class=\"button is-primary is-outlined is-fullwidth\">\r\n      Reset all filters\r\n    </button>\r\n  </div>\r\n</nav>",
+		"description": "A composable panel, for compact controls",
+		"scope": "text.html,javascript"
+	},
+	"bul-progress": {
+		"prefix": "bul-progress",
+		"body": "<progress class=\"progress\" value=\"15\" max=\"100\">15%</progress>\r\n<progress class=\"progress is-primary\" value=\"30\" max=\"100\">30%</progress>\r\n<progress class=\"progress is-info\" value=\"45\" max=\"100\">45%</progress>\r\n<progress class=\"progress is-success\" value=\"60\" max=\"100\">60%</progress>\r\n<progress class=\"progress is-warning\" value=\"75\" max=\"100\">75%</progress>\r\n<progress class=\"progress is-danger\" value=\"90\" max=\"100\">90%</progress>",
+		"description": "Native HTML progress bars",
+		"scope": "text.html,javascript"
+	},
+	"bul-section": {
+		"prefix": "bul-section",
+		"body": "<body>\r\n  <section class=\"section\">\r\n    <div class=\"container\">\r\n      <div class=\"heading\">\r\n        <h1 class=\"title\">Section</h1>\r\n        <h2 class=\"subtitle\">\r\n          A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading\r\n        </h2>\r\n      </div>\r\n    </div>\r\n  </section>\r\n</body>",
+		"description": "A simple container to divide your page into sections, like the one you're currently reading",
+		"scope": "text.html,javascript"
+	},
+	"bul-table": {
+		"prefix": "bul-table",
+		"body": "<table class=\"table\">\r\n  <thead>\r\n    <tr>\r\n      <th><abbr title=\"Position\">Pos</abbr></th>\r\n      <th>Team</th>\r\n      <th><abbr title=\"Played\">Pld</abbr></th>\r\n      <th><abbr title=\"Won\">W</abbr></th>\r\n      <th><abbr title=\"Drawn\">D</abbr></th>\r\n      <th><abbr title=\"Lost\">L</abbr></th>\r\n      <th><abbr title=\"Goals for\">GF</abbr></th>\r\n      <th><abbr title=\"Goals against\">GA</abbr></th>\r\n      <th><abbr title=\"Goal difference\">GD</abbr></th>\r\n      <th><abbr title=\"Points\">Pts</abbr></th>\r\n      <th>Qualification or relegation</th>\r\n    </tr>\r\n  </thead>\r\n  <tfoot>\r\n    <tr>\r\n      <th><abbr title=\"Position\">Pos</abbr></th>\r\n      <th>Team</th>\r\n      <th><abbr title=\"Played\">Pld</abbr></th>\r\n      <th><abbr title=\"Won\">W</abbr></th>\r\n      <th><abbr title=\"Drawn\">D</abbr></th>\r\n      <th><abbr title=\"Lost\">L</abbr></th>\r\n      <th><abbr title=\"Goals for\">GF</abbr></th>\r\n      <th><abbr title=\"Goals against\">GA</abbr></th>\r\n      <th><abbr title=\"Goal difference\">GD</abbr></th>\r\n      <th><abbr title=\"Points\">Pts</abbr></th>\r\n      <th>Qualification or relegation</th>\r\n    </tr>\r\n  </tfoot>\r\n  <tbody>\r\n    <tr>\r\n      <th>1</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Leicester_City_F.C.\" title=\"Leicester City F.C.\">Leicester City</a> <strong>(C)</strong>\r\n      </td>\r\n      <td>38</td>\r\n      <td>23</td>\r\n      <td>12</td>\r\n      <td>3</td>\r\n      <td>68</td>\r\n      <td>36</td>\r\n      <td>+32</td>\r\n      <td>81</td>\r\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage\" title=\"2016–17 UEFA Champions League\">Champions League group stage</a></td>\r\n    </tr>\r\n    <tr>\r\n      <th>2</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Arsenal_F.C.\" title=\"Arsenal F.C.\">Arsenal</a></td>\r\n      <td>38</td>\r\n      <td>20</td>\r\n      <td>11</td>\r\n      <td>7</td>\r\n      <td>65</td>\r\n      <td>36</td>\r\n      <td>+29</td>\r\n      <td>71</td>\r\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage\" title=\"2016–17 UEFA Champions League\">Champions League group stage</a></td>\r\n    </tr>\r\n    <tr>\r\n      <th>3</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.\" title=\"Tottenham Hotspur F.C.\">Tottenham Hotspur</a></td>\r\n      <td>38</td>\r\n      <td>19</td>\r\n      <td>13</td>\r\n      <td>6</td>\r\n      <td>69</td>\r\n      <td>35</td>\r\n      <td>+34</td>\r\n      <td>70</td>\r\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage\" title=\"2016–17 UEFA Champions League\">Champions League group stage</a></td>\r\n    </tr>\r\n    <tr>\r\n      <th>4</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Manchester_City_F.C.\" title=\"Manchester City F.C.\">Manchester City</a></td>\r\n      <td>38</td>\r\n      <td>19</td>\r\n      <td>9</td>\r\n      <td>10</td>\r\n      <td>71</td>\r\n      <td>41</td>\r\n      <td>+30</td>\r\n      <td>66</td>\r\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Play-off_round\" title=\"2016–17 UEFA Champions League\">Champions League play-off round</a></td>\r\n    </tr>\r\n    <tr>\r\n      <th>5</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Manchester_United_F.C.\" title=\"Manchester United F.C.\">Manchester United</a></td>\r\n      <td>38</td>\r\n      <td>19</td>\r\n      <td>9</td>\r\n      <td>10</td>\r\n      <td>49</td>\r\n      <td>35</td>\r\n      <td>+14</td>\r\n      <td>66</td>\r\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Europa_League#Group_stage\" title=\"2016–17 UEFA Europa League\">Europa League group stage</a></td>\r\n    </tr>\r\n    <tr>\r\n      <th>6</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Southampton_F.C.\" title=\"Southampton F.C.\">Southampton</a></td>\r\n      <td>38</td>\r\n      <td>18</td>\r\n      <td>9</td>\r\n      <td>11</td>\r\n      <td>59</td>\r\n      <td>41</td>\r\n      <td>+18</td>\r\n      <td>63</td>\r\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Europa_League#Group_stage\" title=\"2016–17 UEFA Europa League\">Europa League group stage</a></td>\r\n    </tr>\r\n    <tr>\r\n      <th>7</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/West_Ham_United_F.C.\" title=\"West Ham United F.C.\">West Ham United</a></td>\r\n      <td>38</td>\r\n      <td>16</td>\r\n      <td>14</td>\r\n      <td>8</td>\r\n      <td>65</td>\r\n      <td>51</td>\r\n      <td>+14</td>\r\n      <td>62</td>\r\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Europa_League#Third_qualifying_round\" title=\"2016–17 UEFA Europa League\">Europa League third qualifying round</a></td>\r\n    </tr>\r\n    <tr>\r\n      <th>8</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Liverpool_F.C.\" title=\"Liverpool F.C.\">Liverpool</a></td>\r\n      <td>38</td>\r\n      <td>16</td>\r\n      <td>12</td>\r\n      <td>10</td>\r\n      <td>63</td>\r\n      <td>50</td>\r\n      <td>+13</td>\r\n      <td>60</td>\r\n      <td></td>\r\n    </tr>\r\n    <tr>\r\n      <th>9</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Stoke_City_F.C.\" title=\"Stoke City F.C.\">Stoke City</a></td>\r\n      <td>38</td>\r\n      <td>14</td>\r\n      <td>9</td>\r\n      <td>15</td>\r\n      <td>41</td>\r\n      <td>55</td>\r\n      <td>−14</td>\r\n      <td>51</td>\r\n      <td></td>\r\n    </tr>\r\n    <tr>\r\n      <th>10</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Chelsea_F.C.\" title=\"Chelsea F.C.\">Chelsea</a></td>\r\n      <td>38</td>\r\n      <td>12</td>\r\n      <td>14</td>\r\n      <td>12</td>\r\n      <td>59</td>\r\n      <td>53</td>\r\n      <td>+6</td>\r\n      <td>50</td>\r\n      <td></td>\r\n    </tr>\r\n    <tr>\r\n      <th>11</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Everton_F.C.\" title=\"Everton F.C.\">Everton</a></td>\r\n      <td>38</td>\r\n      <td>11</td>\r\n      <td>14</td>\r\n      <td>13</td>\r\n      <td>59</td>\r\n      <td>55</td>\r\n      <td>+4</td>\r\n      <td>47</td>\r\n      <td></td>\r\n    </tr>\r\n    <tr>\r\n      <th>12</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Swansea_City_A.F.C.\" title=\"Swansea City A.F.C.\">Swansea City</a></td>\r\n      <td>38</td>\r\n      <td>12</td>\r\n      <td>11</td>\r\n      <td>15</td>\r\n      <td>42</td>\r\n      <td>52</td>\r\n      <td>−10</td>\r\n      <td>47</td>\r\n      <td></td>\r\n    </tr>\r\n    <tr>\r\n      <th>13</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Watford_F.C.\" title=\"Watford F.C.\">Watford</a></td>\r\n      <td>38</td>\r\n      <td>12</td>\r\n      <td>9</td>\r\n      <td>17</td>\r\n      <td>40</td>\r\n      <td>50</td>\r\n      <td>−10</td>\r\n      <td>45</td>\r\n      <td></td>\r\n    </tr>\r\n    <tr>\r\n      <th>14</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/West_Bromwich_Albion_F.C.\" title=\"West Bromwich Albion F.C.\">West Bromwich Albion</a></td>\r\n      <td>38</td>\r\n      <td>10</td>\r\n      <td>13</td>\r\n      <td>15</td>\r\n      <td>34</td>\r\n      <td>48</td>\r\n      <td>−14</td>\r\n      <td>43</td>\r\n      <td></td>\r\n    </tr>\r\n    <tr>\r\n      <th>15</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Crystal_Palace_F.C.\" title=\"Crystal Palace F.C.\">Crystal Palace</a></td>\r\n      <td>38</td>\r\n      <td>11</td>\r\n      <td>9</td>\r\n      <td>18</td>\r\n      <td>39</td>\r\n      <td>51</td>\r\n      <td>−12</td>\r\n      <td>42</td>\r\n      <td></td>\r\n    </tr>\r\n    <tr>\r\n      <th>16</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/A.F.C._Bournemouth\" title=\"A.F.C. Bournemouth\">AFC Bournemouth</a></td>\r\n      <td>38</td>\r\n      <td>11</td>\r\n      <td>9</td>\r\n      <td>18</td>\r\n      <td>45</td>\r\n      <td>67</td>\r\n      <td>−22</td>\r\n      <td>42</td>\r\n      <td></td>\r\n    </tr>\r\n    <tr>\r\n      <th>17</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Sunderland_A.F.C.\" title=\"Sunderland A.F.C.\">Sunderland</a></td>\r\n      <td>38</td>\r\n      <td>9</td>\r\n      <td>12</td>\r\n      <td>17</td>\r\n      <td>48</td>\r\n      <td>62</td>\r\n      <td>−14</td>\r\n      <td>39</td>\r\n      <td></td>\r\n    </tr>\r\n    <tr>\r\n      <th>18</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Newcastle_United_F.C.\" title=\"Newcastle United F.C.\">Newcastle United</a> <strong>(R)</strong>\r\n      </td>\r\n      <td>38</td>\r\n      <td>9</td>\r\n      <td>10</td>\r\n      <td>19</td>\r\n      <td>44</td>\r\n      <td>65</td>\r\n      <td>−21</td>\r\n      <td>37</td>\r\n      <td>Relegation to the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_Football_League_Championship\" title=\"2016–17 Football League Championship\">Football League Championship</a></td>\r\n    </tr>\r\n    <tr>\r\n      <th>19</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Norwich_City_F.C.\" title=\"Norwich City F.C.\">Norwich City</a> <strong>(R)</strong>\r\n      </td>\r\n      <td>38</td>\r\n      <td>9</td>\r\n      <td>7</td>\r\n      <td>22</td>\r\n      <td>39</td>\r\n      <td>67</td>\r\n      <td>−28</td>\r\n      <td>34</td>\r\n      <td>Relegation to the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_Football_League_Championship\" title=\"2016–17 Football League Championship\">Football League Championship</a></td>    </tr>\r\n    <tr>\r\n      <th>20</th>\r\n      <td><a href=\"https://en.wikipedia.org/wiki/Aston_Villa_F.C.\" title=\"Aston Villa F.C.\">Aston Villa</a> <strong>(R)</strong>\r\n      </td>\r\n      <td>38</td>\r\n      <td>3</td>\r\n      <td>8</td>\r\n      <td>27</td>\r\n      <td>27</td>\r\n      <td>76</td>\r\n      <td>−49</td>\r\n      <td>17</td>\r\n      <td>Relegation to the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_Football_League_Championship\" title=\"2016–17 Football League Championship\">Football League Championship</a></td>\r\n    </tr>\r\n  </tbody>\r\n</table>",
+		"description": "The inevitable HTML table, with special case cells",
+		"scope": "text.html,javascript"
+	},
+	"bul-tabs": {
+		"prefix": "bul-tabs",
+		"body": "<div class=\"tabs\">\r\n  <ul>\r\n    <li class=\"is-active\"><a>Pictures</a></li>\r\n    <li><a>Music</a></li>\r\n    <li><a>Videos</a></li>\r\n    <li><a>Documents</a></li>\r\n  </ul>\r\n</div>",
+		"description": "Simple responsive horizontal navigation tabs, with different styles",
+		"scope": "text.html,javascript"
+	},
+	"bul-tags": {
+		"prefix": "bul-tags",
+		"body": "<span class=\"tag is-success\">\r\n  Bar\r\n  <button class=\"delete is-small\"></button>\r\n</span>\r\n<span class=\"tag is-warning is-medium\">\r\n  Hello\r\n  <button class=\"delete is-small\"></button>\r\n</span>\r\n<span class=\"tag is-danger is-large\">\r\n  World\r\n  <button class=\"delete\"></button>\r\n</span>\r\n\t",
+		"description": "Small tag labels to insert anywhere",
+		"scope": "text.html,javascript"
+	},
+	"bul-title": {
+		"prefix": "bul-title",
+		"body": "<h1 class=\"title\">Title</h1>\r\n<h2 class=\"subtitle\">Subtitle</h2>",
+		"description": "Simple headings to add depth to your page",
+		"scope": "text.html,javascript"
+	}
+}

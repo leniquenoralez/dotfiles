@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1594022460560" clover="3.2.0">
+  <project timestamp="1594022460560" name="All files">
+    <metrics statements="11" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="1" elements="16" coveredelements="7" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
+    <file name="activate.js" path="/drone/src/commands/activate.js">
+      <metrics statements="11" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="3" type="stmt"/>
+      <line num="15" count="3" type="stmt"/>
+      <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="39" count="0" type="stmt"/>
+      <line num="51" count="3" type="stmt"/>
+      <line num="55" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

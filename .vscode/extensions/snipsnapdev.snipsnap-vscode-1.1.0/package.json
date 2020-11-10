@@ -1,0 +1,73 @@
+{
+	"name": "snipsnap-vscode",
+	"displayName": "Snipsnap - Code Snippets for Javascript libraries",
+	"description": "Code snippets for React, Gatsby, Next.js, Redux and more",
+	"version": "1.1.0",
+	"publisher": "snipsnapdev",
+	"icon": "snipsnap-logo.jpg",
+	"homepage": "https://marketplace.visualstudio.com/items?itemName=snipsnapdev.snipsnap-vscode",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/snipsnapdev/snipsnap-vscode.git"
+	},
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"activationEvents": [
+		"workspaceContains:package.json"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.snipsnap_activate",
+				"title": "Fetch the snippets",
+				"category": "Snipsnap"
+			}
+		],
+		"configuration": {
+			"title": "Snipsnap",
+			"properties": {
+				"snipsnap.silent": {
+					"type": "boolean",
+					"default": false,
+					"description": "Removes successful fetching notification if enabled"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"test": "jest",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"cleanup": "npm run lint;prettier --write **/**.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.7",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.41.0",
+		"eslint": "^6.6.0",
+		"glob": "^7.1.5",
+		"jest": "^24.9.0",
+		"mocha": "^6.2.2",
+		"typescript": "^3.6.4",
+		"vscode-test": "^1.2.2",
+		"babel-eslint": "^10.0.3",
+		"eslint-config-airbnb-base": "^14.0.0",
+		"eslint-plugin-import": "^2.19.1",
+		"eslint-plugin-jest": "^23.1.1"
+	},
+	"dependencies": {
+		"@yarnpkg/lockfile": "^1.1.0"
+	},
+	"license": "MIT",
+	"__metadata": {
+		"id": "936ba113-0d8f-4e4d-a1c1-5cda3f3bbfd7",
+		"publisherId": "aca7fe34-2a0f-4280-946b-64c10380fadf",
+		"publisherDisplayName": "Snipsnap"
+	}
+}

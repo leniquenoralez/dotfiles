@@ -1,0 +1,35 @@
+{
+	"name": "bulma",
+	"displayName": "bulma",
+	"description": "Bulma snippets from http://bulma.io",
+	"version": "0.0.9",
+	"publisher": "demijollamaxime",
+	"engines": {
+		"vscode": "^1.10.0"
+	},
+	"keywords": [
+		"Bulma",
+		"HTML"
+	],
+	"icon": "images/b.png",
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets-html.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets-javascript.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "6d93edb7-d535-4100-9e41-d5f5e2029226",
+		"publisherId": "80ff0bb3-598a-4172-b57d-f7c9f5304c8f",
+		"publisherDisplayName": "Maxime de Mijolla"
+	}
+}

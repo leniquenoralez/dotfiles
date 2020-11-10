@@ -1,0 +1,115 @@
+{
+	"name": "prisma",
+	"displayName": "Prisma",
+	"description": "Adds syntax highlighting, formatting, auto-completion, jump-to-definition and linting for .prisma files.",
+	"version": "2.11.0",
+	"license": "Apache-2.0",
+	"icon": "logo_white.png",
+	"engines": {
+		"vscode": "^1.49.0"
+	},
+	"publisher": "Prisma",
+	"categories": [
+		"Programming Languages"
+	],
+	"dependencies": {
+		"checkpoint-client": "1.1.14",
+		"crypto": "1.0.1",
+		"chokidar": "3.4.3",
+		"@prisma/language-server": "2.11.0",
+		"vscode-languageclient": "6.1.3"
+	},
+	"optionalDependencies": {
+		"fsevents": "2.2.0"
+	},
+	"repository": {
+		"type": "github",
+		"url": "https://github.com/prisma/vscode"
+	},
+	"scripts": {
+		"build": "tsc -p ./",
+		"watch": "npm run build -- -w",
+		"test": "jest",
+		"vscode:prepublish": "cd .. && cd .. && tsc --build --clean && npm run compile",
+		"package": "vsce package"
+	},
+	"main": "./dist/src/extension.js",
+	"activationEvents": [
+		"onLanguage:prisma"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "prisma",
+				"aliases": [
+					"Prisma",
+					"prisma"
+				],
+				"extensions": [
+					".prisma"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "prisma",
+				"scopeName": "source.prisma",
+				"path": "./syntaxes/prisma.tmLanguage.json"
+			},
+			{
+				"injectTo": [
+					"source.js",
+					"source.ts",
+					"source.js.jsx",
+					"source.tsx",
+					"source.vue"
+				],
+				"scopeName": "inline.prisma",
+				"path": "./syntaxes/prisma.js.json",
+				"embeddedLanguages": {
+					"meta.embedded.block.prisma": "prisma"
+				}
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Language server configuration",
+			"properties": {
+				"prismaLanguageServer.prismaFmtBinPath": {
+					"scope": "resource",
+					"type": "string",
+					"description": "Option to set the path to the prisma-fmt binary."
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "prisma.restartLanguageServer",
+				"title": "Restart Language Server",
+				"category": "Prisma"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/glob": "7.1.3",
+		"@types/mocha": "8.0.3",
+		"@types/vscode": "1.49.0",
+		"mocha": "8.2.1",
+		"ovsx": "0.1.0-next.e000fdb",
+		"semver": "7.3.2",
+		"typescript": "4.0.5",
+		"vsce": "1.81.1",
+		"vscode-test": "1.4.1"
+	},
+	"gitHead": "7d51b157647fe1705813a30d1a77b8ccf136b8d4",
+	"publishConfig": {
+		"access": "public"
+	},
+	"preview": false,
+	"__metadata": {
+		"id": "33ce9d6b-41cf-4972-a62b-386f7201981d",
+		"publisherId": "2397d6f3-c7f1-4b03-9029-414f731a68ec",
+		"publisherDisplayName": "Prisma"
+	}
+}

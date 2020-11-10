@@ -1,0 +1,75 @@
+{
+	"name": "format-html-in-php",
+	"displayName": "Format HTML in PHP",
+	"description": "Provides formatting for the HTML code in PHP files using JSbeautify - Works well paired with a PHP formatting extension",
+	"version": "1.7.0",
+	"publisher": "rifi2k",
+	"repository": {
+		"url": "https://github.com/RiFi2k/format-html-in-php"
+	},
+	"license": "Unlicense",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.48.0"
+	},
+	"categories": [
+		"Other",
+		"Programming Languages",
+		"Formatters"
+	],
+	"keywords": [],
+	"contributes": {
+		"commands": [
+			{
+				"command": "formatHtmlInPhp.format",
+				"title": "Format HTML in PHP"
+			}
+		],
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "formatHtmlInPhp.format",
+					"when": "editorLangId == php"
+				}
+			],
+			"editor/context": [
+				{
+					"command": "formatHtmlInPhp.format",
+					"when": "editorLangId == php"
+				}
+			]
+		},
+		"keybindings": [
+			{
+				"command": "formatHtmlInPhp.format",
+				"key": "ctrl+alt+f",
+				"when": "editorLangId == php"
+			}
+		]
+	},
+	"activationEvents": [
+		"onLanguage:php"
+	],
+	"main": "./out/extension",
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./"
+	},
+	"devDependencies": {
+		"@types/node": "14.6.1",
+		"@types/vscode": "1.48.0",
+		"tslint": "6.1.3",
+		"typescript": "4.0.2"
+	},
+	"dependencies": {
+		"js-beautify": "1.12.0",
+		"lodash.get": "4.4.2",
+		"lodash.has": "4.5.2"
+	},
+	"__metadata": {
+		"id": "6b8be8ff-4ed6-4534-99e6-c37b7a82aea6",
+		"publisherId": "0a5f1674-fcbc-414d-ad46-2fbc8ab6f227",
+		"publisherDisplayName": "rifi2k"
+	}
+}
